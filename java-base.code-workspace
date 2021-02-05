@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "static-proxy"
+    },
+    {
+      "path": "jdk-dynamic-proxy"
+    }
+  ],
+  "settings": {
+    "java.configuration.updateBuildConfiguration": "interactive"
+  }
+}

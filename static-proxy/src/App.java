@@ -4,6 +4,5 @@ public class App {
         UserService proxy = new UserServiceProxy(userServiceImpl);
         proxy.select();
 
-        System.out.println("Hello, World!");
     }
 }

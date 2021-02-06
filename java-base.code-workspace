@@ -1,13 +1,17 @@
 {
   "folders": [
-    {
-      "path": "static-proxy"
-    },
-    {
-      "path": "jdk-dynamic-proxy"
-    }
-  ],
+	{
+		"path": "jdk-dynamic-proxy"
+	},
+	{
+		"path": "reflection"
+	},
+	{
+		"path": "static-proxy"
+	}
+],
   "settings": {
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "java.dependency.packagePresentation": "flat",
+    "java.dependency.syncWithFolderExplorer": false
   }
 }

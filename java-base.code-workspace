@@ -1,15 +1,21 @@
 {
   "folders": [
-	{
-		"path": "jdk-dynamic-proxy"
-	},
-	{
-		"path": "reflection"
-	},
-	{
-		"path": "static-proxy"
-	}
-],
+    {
+      "path": "jdk-dynamic-proxy"
+    },
+    {
+      "path": "reflection"
+    },
+    {
+      "path": "static-proxy"
+    },
+    {
+      "path": "java-iterator"
+    },
+    {
+      "path": "java-lock-synchronized"
+    }
+  ],
   "settings": {
     "java.dependency.packagePresentation": "flat",
     "java.dependency.syncWithFolderExplorer": false

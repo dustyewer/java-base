@@ -31,8 +31,10 @@ public class AppTest {
         // 这里创建的是一个自定义的日志处理器，须传入实际的执行对象 userServiceImpl
         InvocationHandler logHandler = new LogHandler(userServiceImpl);
         /*
-         * 5.根据上面提供的信息，创建代理对象 在这个过程中， a.JDK会通过根据传入的参数信息动态地在内存中创建和.class 文件等同的字节码
-         * b.然后根据相应的字节码转换成对应的class， c.然后调用newInstance()创建代理实例
+         * 5.根据上面提供的信息，创建代理对象 在这个过程中，
+         *  a.JDK会通过根据传入的参数信息动态地在内存中创建和.class 文件等同的字节码
+         * b.然后根据相应的字节码转换成对应的class， 
+         * c.然后调用newInstance()创建代理实例
          */
         UserService proxy = (UserService) Proxy.newProxyInstance(classLoader, interfaces, logHandler);
         System.out.println("proxy是什么类" + proxy.getClass());

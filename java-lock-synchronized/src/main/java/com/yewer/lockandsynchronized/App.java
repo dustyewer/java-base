@@ -7,16 +7,16 @@ public class App {
         SynchronizedTest synTest = new SynchronizedTest();
         SynchronizedTest synTest2 = new SynchronizedTest();
 
-        new Thread(new Runnable(){
-                @Override
+        new Thread(new Runnable() {
+            @Override1
             public void run() {
                 synTest.test03();
-               }
+            }
         }).start();
 
-        new Thread(new Runnable(){
-            public void run(){
-                synTest.test03();   
+        new Thread(new Runnable() {
+            public void run() {
+                synTest.test03();
             }
         }).start();
 
@@ -27,14 +27,11 @@ public class App {
         Thread t2 = new Thread(lockTest, "窗口2");
         Thread t3 = new Thread(lockTest, "窗口3");
 
-        // // 启动线程
-        // t1.start();
-        // t2.start();
-        // t3.start();
-
+        // 启动线程
+        t1.start();
+        t2.start();
+        t3.start();
 
     }
-
-
 
 }

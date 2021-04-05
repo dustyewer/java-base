@@ -26,10 +26,11 @@ public class LockTest implements Runnable {
                     e.printStackTrace();
                 }
                 System.out.println(Thread.currentThread().getName() + "正在出售第" + (ticket--) + "张票。");
-            } else {
-                lock.unlock();
-                return;
             }
+            // else {
+            // lock.unlock();
+            // return;
+            // }
             lock.unlock();
         }
     }

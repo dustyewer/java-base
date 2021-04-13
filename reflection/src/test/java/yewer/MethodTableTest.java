@@ -12,7 +12,7 @@ public class MethodTableTest {
         Employee employee = new Employee("小明", "18", "写代码", 1, "Java攻城狮", 100000);
         Method sayHello = employee.getClass().getMethod("sayHello");
         System.out.println(sayHello); // 打印 sayHello 的方法信息
-        sayHello.invoke(employee); // 让 employee 执行 sayHello 方法
+        sayHello.invoke(employee); // 让 employee 执行 sayHello 方法        
 
         double x = 3.0;
         Method square = MethodTableTest.class.getMethod("square", double.class); // 获取 MethodTableTest 的square方法

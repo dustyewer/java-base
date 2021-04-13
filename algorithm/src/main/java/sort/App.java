@@ -1,7 +1,7 @@
+package sort;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
+
 import java.util.Random;
 
 
@@ -21,7 +21,8 @@ public class App {
 //         SortIntf mySort = new MeregeSort();
 //        SortIntf mySort = new QuickSort();
 //        SortIntf mySort = new HeapSort();
-        SortIntf mySort = new ShellSort();
+    //    SortIntf mySort = new ShellSort();
+        SortIntf mySort = new ForkJoinSort();
 
 
         int[] dstArr = mySort.sort(srcArr);

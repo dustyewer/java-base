@@ -1,3 +1,4 @@
+package sort;
 import java.util.Arrays;
 
 public class QuickSort implements SortIntf {
@@ -9,26 +10,26 @@ public class QuickSort implements SortIntf {
         return quickSort(arr,0,arr.length-1);
     }
 
-    private int[] quickSort(int[] s, int left, int right) {
+    private int[] quickSort(int[] arr, int left, int right) {
         if(left<right){
-        int p = part(s,left,right);
-        quickSort(s, left, p-1);
-        quickSort(s, p+1, right);
+        int p = part(arr,left,right);
+        quickSort(arr, left, p-1);
+        quickSort(arr, p+1, right);
         }
-        return s;
+        return arr;
     }
 
-    private int part(int[] s, int left, int right) {
+    private int part(int[] arr, int left, int right) {
         int pivot = left;
         int index = pivot + 1;
         for (int i = index; i <= right; i++) {
-            if (s[i] < s[pivot]) {
-                Exchange.exchange(s, i, index);
+            if (arr[i] < arr[pivot]) {
+                Exchange.exchange(arr, i, index);
                 index++;
             }
 
         }
-        Exchange.exchange(s,pivot,index-1);
+        Exchange.exchange(arr,pivot,index-1);
         return index-1;
 
 

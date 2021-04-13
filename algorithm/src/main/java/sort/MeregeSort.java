@@ -1,3 +1,4 @@
+package sort;
 import java.util.Arrays;
 
 public class MeregeSort implements SortIntf {

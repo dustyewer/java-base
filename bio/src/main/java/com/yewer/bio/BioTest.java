@@ -1,14 +1,10 @@
-package main.java.com.yewer.bio;
+package com.yewer.bio;
 
-import com.sun.jmx.remote.internal.ArrayQueue;
 
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.*;
-import java.util.concurrent.FutureTask;
 
-import static java.lang.Thread.sleep;
 
 public class BioTest {
     public static void main(String[] args) throws IOException {
@@ -45,5 +41,7 @@ public class BioTest {
             }).start();
             //注意不能用run()
         }
+        
     }
+   
 }

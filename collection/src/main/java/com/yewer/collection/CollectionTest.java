@@ -1,5 +1,5 @@
 
-package main.java.com.yewer.collection;
+package com.yewer.collection;
 
 import java.util.*;
 

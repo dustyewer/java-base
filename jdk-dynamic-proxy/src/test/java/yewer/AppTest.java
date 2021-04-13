@@ -41,7 +41,7 @@ public class AppTest {
         // 调用代理的方法
         proxy.select();
         // 保存JDK动态代理生成的代理类，类名保存为 UserServiceProxy
-        // ProxyUtils.generateClassFile(userServiceImpl.getClass(), "UserServiceProxy");
+        //  ProxyUtils.generateClassFile(userServiceImpl.getClass(), "UserServiceProxy");
 
     }
 }

@@ -21,10 +21,4 @@ public class App {
             System.out.println(s.pop().getData());
         }
     }
-    
-    
-    
-    
-
-    
 }

@@ -1,4 +1,4 @@
-package main.java.com.yewer.nio;
+package com.yewer.nio;
 
 import java.io.*;
 import java.net.SocketPermission;

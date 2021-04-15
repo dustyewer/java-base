@@ -5,7 +5,11 @@
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm.iml" filepath="$PROJECT_DIR$/algorithm/algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/bio/bio.iml" filepath="$PROJECT_DIR$/bio/bio.iml" />
       <module fileurl="file://$PROJECT_DIR$/collection/collection.iml" filepath="$PROJECT_DIR$/collection/collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdk-dynamic-proxy/jdk-dynamic-proxy.iml" filepath="$PROJECT_DIR$/jdk-dynamic-proxy/jdk-dynamic-proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/nio/nio.iml" filepath="$PROJECT_DIR$/nio/nio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reflection/reflection.iml" filepath="$PROJECT_DIR$/reflection/reflection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/static-proxy/static-proxy.iml" filepath="$PROJECT_DIR$/static-proxy/static-proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-lock-synchronized/src/main/thread-lock-sync.iml" filepath="$PROJECT_DIR$/java-lock-synchronized/src/main/thread-lock-sync.iml" />
     </modules>
   </component>
 </project>

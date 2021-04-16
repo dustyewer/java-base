@@ -1,10 +1,20 @@
 package recursion;
+
+import java.util.Scanner;
+
 // 1 2 3 5 8 13 21 34 55 89
 public class Fibonacci {
   public static void main(String[] args) {
     //
       Fibonacci fibonacci = new Fibonacci();
-    System.out.println(fibonacci.f(10));
+      Scanner scanner =new Scanner(System.in);
+      int n=0;
+      if(scanner.hasNextInt()){
+          n=Integer.valueOf(scanner.next());
+      }
+
+
+    System.out.println(fibonacci.f(n));
   }
 
   public int f(int n){

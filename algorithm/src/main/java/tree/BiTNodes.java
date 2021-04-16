@@ -26,7 +26,7 @@ public  class BiTNodes {
         }
         return nodes[0];
     }
-
+        //按层打印
     public static void  layerPrint(BiTNode root){
         if(root ==null  ){
             return;
@@ -45,7 +45,7 @@ public  class BiTNodes {
             }
         }
     }
-
+    //中序打印
     public static void midPrint(BiTNode node){
         if(node ==null){return;}
         if(node.leftChild!=null){

@@ -2,6 +2,9 @@
 package sort;
 import java.util.Arrays;
 
+/**
+ * @author yewer
+ */
 public class HeapSort implements SortIntf {
     @Override
     public int[] sort(int[] srcArr) {

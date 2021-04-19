@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/reflection/reflection.iml" filepath="$PROJECT_DIR$/reflection/reflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/static-proxy/static-proxy.iml" filepath="$PROJECT_DIR$/static-proxy/static-proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-lock-synchronized/src/main/thread-lock-sync.iml" filepath="$PROJECT_DIR$/java-lock-synchronized/src/main/thread-lock-sync.iml" />
+      <module fileurl="file://$PROJECT_DIR$/try-catch-finally/try-catch-finally.iml" filepath="$PROJECT_DIR$/try-catch-finally/try-catch-finally.iml" />
     </modules>
   </component>
 </project>

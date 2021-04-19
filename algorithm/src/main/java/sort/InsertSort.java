@@ -2,6 +2,7 @@ package sort;
 import java.util.Arrays;
 
 public class InsertSort implements SortIntf{
+    @Override
     public  int[] sort(int[] srcArr) {
 
         int[] arr = Arrays.copyOf(srcArr, srcArr.length);

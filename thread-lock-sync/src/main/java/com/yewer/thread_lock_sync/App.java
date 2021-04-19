@@ -11,16 +11,20 @@ public class App {
         SynchronizedTest synTest2 = new SynchronizedTest();
 
         new Thread(new Runnable() {
+            @Override
             public void run() {
                 synTest.test02();
             }
         }).start();
 
         new Thread(new Runnable() {
+            @Override
             public void run() {
                 synTest.test02();
             }
         }).start();
+
+        new Thread(()->{synTest.test02();}).start();
 
         // 创建3个线程对象
         LockTest lockTest = new LockTest();
@@ -42,10 +46,5 @@ public class App {
              synTest.wait();
             }
         }
-  
-
-
-
-
-    }
+     }
 }

@@ -1,5 +1,5 @@
 package sort;
+
 public interface SortIntf {
-    public  int[] sort(int[] s);
-    
+  int[] sort(int[] s);
 }
